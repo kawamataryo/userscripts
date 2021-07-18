@@ -17,6 +17,6 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "src/**/*.js": "eslint --cache --fix && prettier --write"
+    "src/**/*.js": "yarn lint"
   }
 }

@@ -4,9 +4,9 @@
 // @version      1.0.0
 // @description  try to take over the world!
 // @author       You
-// @match https://www.youtube.com/watch?v=*
+// @match        https://www.youtube.com/watch?v=*
 // @grant        none
-// @icon https://www.youtube.com/s/desktop/a910c60b/img/favicon_96x96.png
+// @icon         https://www.youtube.com/s/desktop/a910c60b/img/favicon_96x96.png
 // @updateURL    https://github.com/kawamataryo/userscripts/raw/main/src/hide-youtube-recommendations.user.js
 // @downloadURL  https://github.com/kawamataryo/userscripts/raw/main/src/hide-youtube-recommendations.user.js
 // ==/UserScript==
