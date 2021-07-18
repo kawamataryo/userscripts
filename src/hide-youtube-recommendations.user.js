@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Stop seeing infinitely
+// @name         Hide youtube recommendations
 // @namespace    http://tampermonkey.net/
 // @version      1.0.0
 // @description  try to take over the world!
@@ -7,8 +7,8 @@
 // @match https://www.youtube.com/watch?v=*
 // @grant        none
 // @icon https://www.youtube.com/s/desktop/a910c60b/img/favicon_96x96.png
-// @updateURL    https://github.com/kawamataryo/userscripts/raw/main/src/stop-seeing-infinitely.user.js
-// @downloadURL  https://github.com/kawamataryo/userscripts/raw/main/src/stop-seeing-infinitely.user.js
+// @updateURL    https://github.com/kawamataryo/userscripts/raw/main/src/hide-youtube-recommendations.user.js
+// @downloadURL  https://github.com/kawamataryo/userscripts/raw/main/src/hide-youtube-recommendations.user.js
 // ==/UserScript==
 
 const toDisplayNone = (el) => {
@@ -16,7 +16,7 @@ const toDisplayNone = (el) => {
 };
 
 (async function () {
-  console.log("Enabled stop seeing infinitely.");
+  console.log("Enabled hide youtube recommendations.");
 
   // Stop next video when video ended
   const video = document.querySelector(
