@@ -8,9 +8,15 @@
   "devDependencies": {
     "eslint": "^7.31.0",
     "eslint-config-prettier": "^8.3.0",
+    "husky": "^7.0.0",
+    "lint-staged": "^11.0.1",
     "prettier": "2.3.2"
   },
   "scripts": {
-    "lint": "prettier --write src/**/*.js && eslint --fix src/**/*.js"
+    "lint": "prettier --write src/**/*.js && eslint --fix src/**/*.js",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "src/**/*.js": "eslint --cache --fix && prettier --write"
   }
 }
