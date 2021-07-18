@@ -52,10 +52,6 @@ const toDisplayNone = (el) => {
   toDisplayNone(meta);
 
   // Hide comments
-  const comments = document.querySelectorAll("#comments");
-  if (comments) {
-    comments.forEach((e) => {
-      toDisplayNone(e);
-    });
-  }
+  const comments = document.querySelector("#comments");
+  toDisplayNone(comments);
 })();
