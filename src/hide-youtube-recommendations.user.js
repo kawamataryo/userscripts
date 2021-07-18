@@ -18,7 +18,7 @@ const toDisplayNone = (el) => {
   el.style.display = "none";
 };
 
-(async function () {
+(function () {
   console.log("Enabled hide youtube recommendations.");
 
   // Stop next video when video ended
