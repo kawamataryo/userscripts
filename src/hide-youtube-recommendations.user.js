@@ -25,6 +25,7 @@ const toDisplayNone = (el) => {
   const video = document.querySelector(
     "#movie_player > div.html5-video-container > video"
   );
+  const primary = document.querySelector("#primary");
   if (video) {
     video.addEventListener("ended", () => {
       const cancelBtn = document.querySelector(
@@ -34,13 +35,12 @@ const toDisplayNone = (el) => {
         cancelBtn.click();
       }
 
-      const endedContent = document.querySelector(".ytp-endscreen-content");
-      toDisplayNone(endedContent);
+      const primaryArea = document.querySelector("#primary");
+      toDisplayNone(primaryArea);
     });
   }
 
   // Hide sidebar
-  const primary = document.querySelector("#primary");
   const sidebar = document.querySelector("#secondary");
   if (primary && sidebar) {
     primary.style.maxWidth = `${primary.clientWidth}px`;
