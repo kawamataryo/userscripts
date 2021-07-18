@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Hide youtube recommendations
 // @namespace    http://tampermonkey.net/
-// @version      1.0.0
+// @version      1.0.1
 // @description  try to take over the world!
-// @author       You
+// @author       kawamataryo
 // @match        https://www.youtube.com/watch?v=*
 // @grant        none
 // @icon         https://www.youtube.com/s/desktop/a910c60b/img/favicon_96x96.png
