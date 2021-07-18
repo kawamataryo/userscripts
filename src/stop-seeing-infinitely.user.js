@@ -7,8 +7,8 @@
 // @match https://www.youtube.com/watch?v=*
 // @grant        none
 // @icon https://www.youtube.com/s/desktop/a910c60b/img/favicon_96x96.png
-// @updateURL    https://github.com/kawamataryo/userscripts/raw/master/src/stop-seeing-infinitely.user.js
-// @downloadURL  https://github.com/kawamataryo/userscripts/raw/master/src/stop-seeing-infinitely.user.js
+// @updateURL    https://github.com/kawamataryo/userscripts/raw/main/src/stop-seeing-infinitely.user.js
+// @downloadURL  https://github.com/kawamataryo/userscripts/raw/main/src/stop-seeing-infinitely.user.js
 // ==/UserScript==
 
 const toDisplayNone = (el) => {
