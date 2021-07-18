@@ -12,6 +12,9 @@
 // ==/UserScript==
 
 const toDisplayNone = (el) => {
+  if (!el) {
+    return;
+  }
   el.style.display = "none";
 };
 
@@ -32,9 +35,7 @@ const toDisplayNone = (el) => {
       }
 
       const endedContent = document.querySelector(".ytp-endscreen-content");
-      if (endedContent) {
-        toDisplayNone(endedContent);
-      }
+      toDisplayNone(endedContent);
     });
   }
 
@@ -48,9 +49,7 @@ const toDisplayNone = (el) => {
 
   // Hide meta
   const meta = document.querySelector("#meta");
-  if (meta) {
-    toDisplayNone(meta);
-  }
+  toDisplayNone(meta);
 
   // Hide comments
   const comments = document.querySelectorAll("#comments");
