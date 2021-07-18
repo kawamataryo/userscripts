@@ -1,7 +1,7 @@
 # User Scripts
 My user scripts.
 
-## Install
+## 🚀 Install
 ### For Chrome
 
 1. Install [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
@@ -12,7 +12,7 @@ My user scripts.
 1. Install [Greasemonkey](https://addons.mozilla.org/ja/firefox/addon/greasemonkey/)
 2. Click download link
 
-## Scripts
+## 🤖 Scripts
 ### Hide YouTube recommendations
 
 User script to hide recommendations and more in YouTube watch page.
