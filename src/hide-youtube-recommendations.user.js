@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Hide youtube recommendations
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/kawamataryo/userscripts
 // @version      1.0.1
 // @description  try to take over the world!
 // @author       kawamataryo
